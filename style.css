@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: sweetSensation;
+    src: url(sweetSensation.ttf);
+}
+
+@font-face {
+    font-family: trench;
+    src: url(trench.ttf);
+}
+
+@font-face {
+    font-family: caveman;
+    src: url(caveman.otf);
+}
+
+html, body{
+    height: 100%;
+    font-family: trench;
+    background: black;
+}
+
+p {
+    
+}
+
+h1 {
+    font-family: caveman;
+    font-size: 72px;
+    color: snow;
+    height: 100px;
+}
+
+#questions {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    z-index: 15;
+    bottom: 35%;
+    left: 50%;
+    margin: -300px 0 0 -350px;
+    text-align: center;
+    float: bottom;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 30px;
+    font-size: 24px;
+    margin-top: 30px;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 5px 20px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 20px 3px rgba(255, 255, 255, 0.5);
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
